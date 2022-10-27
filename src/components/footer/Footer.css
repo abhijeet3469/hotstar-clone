@@ -1,0 +1,41 @@
+ .footer-row{
+   cursor: pointer;
+    color: #a7acb5;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 10px 30px;
+ }
+ 
+ .footer-row p{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    line-height: 25px;
+ }
+ 
+ .footer-left span{
+    margin-left: 15px;
+ }
+ 
+ .footer-middle > .text{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ .footer-middle > span{
+    margin-left: 10px;
+ }
+ 
+ .footer-right > .text{
+    padding: 0px;
+ }
+ 
+ .footer-right > img{
+    border-radius: 5px;
+ }
+ 
+ .footer-right .apple{
+    width: 40%;
+ }

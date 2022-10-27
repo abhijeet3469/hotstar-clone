@@ -1,0 +1,53 @@
+.diwali {
+  margin: 16px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+.diwali-card {
+  display: flex;
+  margin: 16px;
+  justify-content: space-between;
+}
+
+.diwali-img {
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 7px;
+  box-shadow: 0px 1px 2px #040001;
+}
+
+.diwali-row>img:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s linear;
+}
+
+.diwali-heading {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.diwali-row::-webkit-scrollbar {
+  display: none;
+}
+
+.diwali-title {
+  margin-top: 10px;
+}
+
+.diwali-heading:hover {
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 414px) and (min-height: 896px){
+  .diwali-img{
+      width: 131px;
+      border-radius: 5px;
+      border: none;
+      margin-left: 7px;
+      box-shadow: 0px 1px 2px #040001;
+  }}

@@ -1,0 +1,124 @@
+.header{
+    background-color: #131a28;
+    padding: 0px 15px 0px;
+    position: static;
+    top: 0;
+    bottom: 0;
+    font-family: "Roboto","HelveticaNeue-Light",sans-serif;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left{
+    padding-bottom: 7px;
+    color: #192133;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.header-left > img{
+    margin-left: 20px;
+}
+
+.header-left > .menu {
+    color: #c7ccd1;
+    margin-top: 6px;
+}
+ .header-left > span{
+    padding: 20px 15px 20px;
+    margin-top: 6px;
+    color: #c7ccd1;
+ }
+
+ .kids{
+    margin-top: 10px;
+    margin-right: 5px;
+ }
+ 
+ .header-right{
+    padding: 20px 15px 20px;
+ }
+
+ .header-right > .searchIcon{
+    color: #5a6268 ;
+    margin-left: -15px;
+ }
+
+ .search > ::placeholder{
+    color: white !important;
+ }
+
+ .MuiInputBase-input{
+   color: white;
+ }
+
+ .header-right > span{
+    padding: 20px 15px 20px;
+    cursor: pointer;
+    color: #c7ccd1;
+ }
+
+  .header-right > button{
+    background-color:  #1f80e0;
+    outline-width: 0;
+    border: none;
+    height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 800;
+    color: whitesmoke;
+  }
+
+  .header-left > span:hover{
+    color: white;
+    transition: 0.5s;
+  }
+
+  .search{
+    width: 250px;
+  }
+
+  .search:hover{
+    width: 400px;
+    transform: 0.5s;
+  }
+
+  @media only screen and (min-width: 414px) and (min-height: 896px){
+   .kids{
+      display: none;
+   }
+   .header-left > span{
+      display: none;
+   }
+   .header-right > .searchIcon{
+      display: none;
+   }
+   .header-content{
+      margin-left: -43px;
+   }
+   .header-right > span{
+      display: none;
+   }
+   .header-right{
+      padding: 0px;
+   }
+   .search{
+      width: 100px;
+      margin-left: 10px;
+   }
+   .header-right > button{
+      margin-left: 2px;
+      height: 15px;
+      font-size: 8px;
+      font-weight: 400;
+      border-radius: 2px;
+   }
+ }

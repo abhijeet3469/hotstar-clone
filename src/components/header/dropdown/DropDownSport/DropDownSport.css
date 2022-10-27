@@ -1,0 +1,30 @@
+.sport-menu{
+    width: 12rem;
+    position: absolute;
+    top: 50px;
+    left: 320px;
+    list-style: none;
+    text-align: center;
+}
+
+.sport-menu li{
+    background: #131a28 ;
+   cursor: pointer;
+}
+
+.sport-menu.clicked{
+    display: none;
+}
+
+.sport-item{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #cbd0d4;
+    padding: 16px;
+}
+
+.sport-item:hover{
+   background: black;
+}

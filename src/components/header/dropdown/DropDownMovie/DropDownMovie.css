@@ -1,0 +1,30 @@
+.movie-menu{
+    width: 10rem;
+    position: absolute;
+    top: 50px;
+    left: 240px;
+    list-style: none;
+    text-align: center;
+}
+
+.movie-menu li{
+    background: #131a28 ;
+   cursor: pointer;
+}
+
+.movie-menu.clicked{
+    display: none;
+}
+
+.movie-item{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #cbd0d4;
+    padding: 16px;
+}
+
+.movie-item:hover{
+   background: black;
+}
